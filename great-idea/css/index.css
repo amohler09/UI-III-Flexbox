@@ -185,6 +185,8 @@ button{
 	margin: auto;
 }
 
+/* Home Page - Contact Starts Here */
+
 .contact{
 	display: flex;
 	flex-direction: column;
@@ -197,10 +199,62 @@ button{
 	margin: 2% 0 0;
 }
 
-
+/* Home Page - Footer Starts Here */
 
 footer{
 	margin: 5% 0 0;
 	text-align: center;
 	margin-bottom: 15%;
 }
+
+
+/* SERVICES PAGE STARTS HERE */
+
+.services-header-img{
+	display: flex;
+	margin: 0  auto;
+	width: 90%;
+}
+
+.services-top-content{
+	display: flex;
+	flex-direction: column;
+	margin: 1.5% auto;
+	width: 90%;
+	height: 10%;
+	justify-content: center;
+	border-bottom: 1px solid black;
+}
+
+.services-top-content h2{
+	font-size: 30px;
+}
+
+.services-section{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	width: 90%;
+	height: 50%;
+	margin: auto;
+}
+
+#content-box{
+	
+	margin: auto;
+	background-color: #F3F3F3;
+	border: 1px solid black;
+	width: 45%;
+	height: 30%;
+	padding: 2%;
+}
+
+#services-button{
+	margin-top: 4%;
+	border-radius: 5px;
+	font-size: 12px;
+}
+
+
+
+
