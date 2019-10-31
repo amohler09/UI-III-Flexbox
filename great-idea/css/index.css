@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/*border: 1px solid red !important;*/
 }
 
 html, body {
@@ -64,3 +65,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/*HOME PAGE STARTS HERE*/
+
+/*Home Page Header*/
+
+Header{
+	display: flex;
+	justify-content: center;
+	margin: 5% auto;
+	word-spacing: 60px;
+	width: 90%;
+}
+
+header nav a{
+	
+	font-size: 14px;
+	color: silver;
+	text-decoration: none;
+}
+
+.logo{
+	padding-left: 18.5%;
+}
+/* Home Page - Top Content Starts Here*/
+
+.top-content{
+	display: flex;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+.cta-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+button{
+	width: 140px;
+	height: 30px;
+  	border: 1px solid black;
+	color: black;
+	background-color: white;  
+  	text-align: center;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-family: Titillium Web;
+}
+
+.topcontent img{
+	justify-content: flex-end;
+}
+
+/* Home Page - Middle Content Starts Here*/
+
+.middle-content{
+	display: flex;
+	margin: 5% auto 0 auto;
+	width: 90%;
+	height: 13%;
+	border-top: 1px solid black;
+}
+
+.features{
+	justify-content: center;
+	width: 50%;
+	margin: auto;
+}
+
+.about{
+	justify-content: center;
+	width: 50%;
+	margin: auto;	
+}
+
+.middle-img{
+	display: flex;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+}
+
+/* Home Page - Bottom Content Starts Here*/
+
+.bottom-content{
+	display: flex;
+	margin: 0% auto 5% auto;
+	width: 90%;
+	height: 13%;
+	border-bottom: 1px solid black;
+}
+
+.services{
+	justify-content: center;
+	width: 33%;
+	margin: auto;
+}
+
+.product{
+	justify-content: center;
+	width: 33%;
+	margin: auto;
+}
+
+.vision{
+	justify-content: center;
+	width: 33%;
+	margin: auto;
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 90%;
+}
+
+.contact p{
+	line-height: 1;
+	margin: 2% 0 0;
+}
+
+
+
+footer{
+	margin: 5% 0 0;
+	text-align: center;
+	margin-bottom: 15%;
+}
