@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	/*border: 1px solid red !important;*/
+	
 }
 
 html, body {
@@ -73,22 +73,26 @@ h1, h2, h3, h4, h5 {
 
 Header{
 	display: flex;
-	justify-content: center;
-	margin: 5% auto;
-	word-spacing: 60px;
+	align-items: center;
+	margin: 5% auto 2%;
+	word-spacing: 90px;
 	width: 90%;
+	justify-content: space-between;
 }
 
 header nav a{
-	
-	font-size: 14px;
+	font-size: 18px;
+	font-weight: bolder;
 	color: silver;
 	text-decoration: none;
 }
 
 .logo{
-	padding-left: 18.5%;
+	float: right;
+	clear: right;
 }
+
+
 /* Home Page - Top Content Starts Here*/
 
 .top-content{
@@ -215,6 +219,7 @@ footer{
 	margin: 0  auto;
 	width: 90%;
 }
+/* Services Page Top Section Starts Here*/
 
 .services-top-content{
 	display: flex;
@@ -230,21 +235,21 @@ footer{
 	font-size: 30px;
 }
 
+/*Services Section Starts Here */
+
 .services-section{
 	display: flex;
 	flex-wrap: wrap;
-	align-content: space-around;
-	width: 90%;
-	height: 50%;
-	margin: auto;
+	justify-content: space-between;
+	height: 55%;
+	margin: 3% auto;
 }
 
 #content-box{
-	
 	margin: auto;
 	background-color: #F3F3F3;
 	border: 1px solid black;
-	width: 45%;
+	width: 40%;
 	height: 30%;
 	padding: 2%;
 }
@@ -253,8 +258,40 @@ footer{
 	margin-top: 4%;
 	border-radius: 5px;
 	font-size: 12px;
+	
+}
+
+h3{
+	font-weight: bold;
+}
+
+/*Bottom Section Starts Here*/
+
+h2{
+	font-weight: bold;
+}
+.services-bottom{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	border-top: 2px solid black;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.services-bottom-section{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	justify-content: center;
+	line-height: 1.5;
 }
 
 
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+	
+}
 
 
